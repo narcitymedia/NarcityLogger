@@ -49,7 +49,7 @@ namespace NarcityMedia.Log
 
             WritePrefix();
 
-            Console.ForegroundColor = (ConsoleColor) ((int) logType);
+            Console.ForegroundColor = (ConsoleColor) logType;
             Console.WriteLine(message);
 
             Console.ForegroundColor = oldColor;
