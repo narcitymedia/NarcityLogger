@@ -31,7 +31,7 @@ namespace LoggerTest
 }
 ```
 Will produce the following output
-### On Wdinwos
+### On Windows
 ![Windows output example](https://github.com/narcitymedia/NarcityLogger/blob/master/assets/windows-example.png)
 ### On Unix Systems
 ![Unix output example](https://github.com/narcitymedia/NarcityLogger/blob/master/assets/unix-example.png)
