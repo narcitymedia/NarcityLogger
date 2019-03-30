@@ -4,10 +4,11 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>NarcityLogger</PackageId>
     <Title>Narcity Logger</Title>
-    <Description>A very simplistic .NET (dotnet) Core Logger that outputs colorful text to the console and displayed the time at which the text was logged.</Description>
+    <Description>A very simplistic .NET (dotnet) Core Logger that outputs colorful text to the console and displayes the time at which the text was logged.</Description>
     <Version>1.0.1</Version>
     <Authors>Gaboik</Authors>
     <Company>NarcityMedia</Company>
+    <RootNamespace>NarcityMedia.Log</RootNamespace>
   </PropertyGroup>
 
 </Project>
