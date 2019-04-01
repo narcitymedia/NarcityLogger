@@ -21,11 +21,11 @@ namespace LoggerTest
     {
         static void Main(string[] args)
         {
-            Logger.Log("Normal");
-            Logger.Log("Success", LogType.Success);
-            Logger.Log("Info", LogType.Info);
-            Logger.Log("Warning", LogType.Warning);
-            Logger.Log("Error", LogType.Error);
+            NMLogger.Log("Normal");
+            NMLogger.Log("Success", LogType.Success);
+            NMLogger.Log("Info", LogType.Info);
+            NMLogger.Log("Warning", LogType.Warning);
+            NMLogger.Log("Error", LogType.Error);
         }
     }
 }
