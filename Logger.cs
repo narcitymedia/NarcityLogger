@@ -16,9 +16,9 @@ namespace NarcityMedia.Log
     }
 
     /// <summary>
-    /// Utility that allows fancy logging
+    /// Utility class that allows fancy logging
     /// </summary>
-    static public class Logger
+    static public class NMLogger
     {
         /// <summary>
         /// Gets or sets the character that will separate the prefix and the logged message
@@ -60,7 +60,7 @@ namespace NarcityMedia.Log
         /// </summary>
         private static void WritePrefix()
         {
-            Console.Write(String.Format("{0} {1} ", DateTime.Now.ToString("dd/mm/yyyy - HH:mm:ss"), Logger.Separator));
+            Console.Write(String.Format("{0} {1} ", DateTime.Now.ToString("dd/mm/yyyy - HH:mm:ss"), NMLogger.Separator));
         }
     }
 }
