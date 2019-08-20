@@ -7,9 +7,9 @@ If you're using the dotnet CLI you can do so by running :
 
 `dotnet add package NarcityLogger --version 1.0.1`
 
-Otherwise, follow the instructions given on the [Nuget package page](https://www.nuget.org/packages/NarcityLogger/) that corresponds to your facourite package manager.
+Otherwise, follow the instructions given on the [Nuget package page](https://www.nuget.org/packages/NarcityLogger/) that corresponds to your favorite package manager.
 
-Now to use the Logger in your soruce code, you only have to use the `NarcityMedia.Log` namespace and you're good to go.
+Now, to use the Logger in your source code, you only have to use the `NarcityMedia.Log` namespace and you're good to go.
 The following code:
 ```csharp
 using System;
